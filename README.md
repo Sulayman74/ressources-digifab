@@ -1,12 +1,20 @@
-$ npm express-generator
+# ressources-digifab
 
-$ express --no-view --git myApp
+_Pour généré site web avec express-generator:_
 
-$ cd myApp
+`npm express-generator`
 
------------------------------------------------
-[TODO]
+`express --no-view --git myApp`
 
-$ npm install
+`cd myApp`
 
-$ npm start
+`npm install // installer les paquets après un clone`
+
+## Lancer le serveur
+`npm start`
+
+## Les ressources
+
+## Section entraînement
+
+### [GitHub Digifab](https://github.com/digifab-dev)
