@@ -3,6 +3,7 @@
 _Pour généré site web avec express-generator:_
 
 `npm express-generator`
+<<<<<<< HEAD
 
 `express --no-view --git myApp`
 
