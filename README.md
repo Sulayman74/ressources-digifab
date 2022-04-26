@@ -9,4 +9,4 @@ $ cd myApp
 
 $ npm install
 
-$ SET DEBUG=ressources-digifab:* & npm start
+$ npm start
