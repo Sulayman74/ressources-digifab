@@ -1,14 +1,16 @@
 # ressources-digifab
 
-_Pour généré site web avec express-generator:_
+_Pour généré site web avec express-generator (ne pas retapez ces commandes):_
 
 `npm express-generator`
 
 `express --no-view --git myApp`
 
-`cd myApp`
+`cd ressources-digifab`
 
-`npm install // installer les paquets après un clone`
+## Installer les paquets
+
+`npm install`
 
 ## Lancer le serveur
 
