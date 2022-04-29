@@ -132,7 +132,7 @@ main {
 
 main h2 {
     margin: 0 15px;
-    text-decoration: underline 2px wavy #285A84;
+    text-decoration: underline 2px solid #285A84;
 }
 
 #sous_titres {
@@ -147,21 +147,23 @@ main nav {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    font-family: serif; Comfortaa;
+
 }
 main nav::-webkit-scrollbar {
     width: 12px;
     /* width of the entire scrollbar */
 }
 main nav::-webkit-scrollbar-track {
-    background: rgb(240, 63, 63);
+    background: #F7777A;
     /* color of the tracking area */
 }
 main nav::-webkit-scrollbar-thumb {
-    background-color: blue;
+    background-color: #285A84;
     /* color of the scroll thumb */
     border-radius: 20px;
     /* roundness of the scroll thumb */
-    border: 3px solid rgb(240, 63, 63);
+    border: 3px solid #F7777A;
     /* creates padding around scroll thumb */
 }
 
@@ -360,7 +362,7 @@ main section.active::-webkit-scrollbar-thumb {
     height: 50px;
     transform: rotate(30deg);
     position: relative;
-    left: 100px;
+    left: 500px;
     top: 20px;
     transition: all 1s ease-in-out;
 }
@@ -379,7 +381,6 @@ main section.active::-webkit-scrollbar-thumb {
     width: 100%;
     height: 100%;
 }
-
 
 
 #theodinproject img {
