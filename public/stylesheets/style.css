@@ -391,6 +391,24 @@ main section.active::-webkit-scrollbar-thumb {
     transform: scale(4);
   }
 
+
+#Apple figure img {
+  width: 20%;
+  height: 20%;
+}
+
+#Apple {
+  position: absolute;
+  left: 500px;
+  transition: left 4s, transform 3s;
+	white-space: nowrap;
+}
+
+#Apple:hover {
+  left: 50%;
+	transform: translateX(-50%);
+}
+
 @keyframes truc_qui_tourne {
     from {
         transform: rotate(0deg);
